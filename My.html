@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Веброзробниця твоїх ідей</title>
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    html {
+  scroll-behavior: smooth;
+}
+    /* Основні стилі сторінки */
+    body {
+      font-family: 'CAMBRIA', sans-serif;
+   background: linear-gradient(to bottom, #5c1a1b, #ffe6e6); /* Гармонійний бордовий градієнт */
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Контейнер всього контенту */
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      margin-top: 30px;
+
+      /* Анімація появи */
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    /* Заголовки */
+    h1, h3 {
+      text-align: center;
+      color: #1b2631;
+    }
+    h2 {
+      text-align: left;
+      color: #1b2631;
+    }
+
+
+    /* Текст і списки */
+    p, ul {
+      font-size: 22px;
+      color: #353434;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    /* Аватар */
+    .profile-img {
+      display: block;
+      margin: 0 auto;
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border: 3px solid #4CAF50;
+    }
+
+    /* Соцмережі */
+    .social {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .social a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #800000;
+      font-weight: bold;
+      font-size: 20px; /* Збільшено */
+      transition: all 0.3s ease-in-out;
+    }
+
+    .social a:hover {
+      color: #3a1b1b; /* Темніший при наведенні */
+    }
+ .social1 {
+      text-align: left;
+      margin-top: 10px;
+    }
+
+    .social1 a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #353434;
+      font-weight: bold;
+      font-size: 20px; /* Збільшено */
+      transition: all 0.3s ease-in-out;
+    }
+
+    .social1 a:hover {
+      color: #3a1b1b; /* Темніший при наведенні */
+    }
+    /* Кнопка зв'язку */
+    .contact {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .contact a {
+  text-decoration: none;
+  background-color: #800000;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-size: 16px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.contact a:hover {
+  background-color: #9447c4;
+  transform: scale(1.05);
+}
+    
+
+    
+    /* Секція проєктів */
+    .projects {
+      margin-top: 30px;
+    }
+
+    .projects ul {
+      list-style-type: square;
+    }
+
+    /* Блок цитати */
+    blockquote {
+      font-style: italic;
+      color: #555;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .container {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+    /* Адаптивність */
+    @media screen and (max-width: 600px) {
+      .container {
+        margin: 10px;
+        padding: 15px;
+      }
+    }
+
+    /* Анімація появи контейнера */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+
+<body >
+  <div class="container">
+
+    <!-- Фото -->
+    <img src="first/5188667488727071387.jpg" alt="Моє фото" class="profile-img" />
+    <!-- Замінити на власне фото, якщо потрібно -->
+
+    
+
+    <h1>Привіт! Я Аня 👩‍💻</h1>
+
+    <!-- Про себе -->
+    <p>
+      Я студентка та веброзробниця. Вивчаю HTML, CSS і JavaScript, щоб створювати красиві, сучасні, адаптивні сайти для клієнтів.
+      Мрію створити своє портфоліо.
+    </p>
+
+    <h2>Мої цілі</h2>
+    <ul>
+      <li>Розвивати HTML, CSS та JavaScript</li>
+      <li>Створити гарне портфоліо</li>
+      <li>Знайти перших замовників</li>
+    </ul>
+
+    <!-- Проєкти -->
+    <div class="projects">
+      <h2>Мої проєкти</h2>
+      <div class="social1">
+      <ul>
+        <li><a href="My.html" target="_blank">Сайт-візитка (цей сайт)</a></li>
+        <li><a href="coffe.html" target="_blank">Лендінг про каву ☕ (в розробці)</a></li>
+        <li>Інтернет-магазин одягу (планується)</li>
+      </ul>
+    </div>
+
+    <!-- Соцмережі -->
+    <div class="social">
+      <h1>Я в соцмережах</h1>
+      <a href="https://t.me/anewzx" target="_blank">Telegram</a>
+      <a href="https://instagram.com/anewzx._" target="_blank">Instagram</a>
+    </div>
+
+    <!-- Цитата -->
+    <blockquote>
+      “Розробка сайту — це як малювання, тільки кодом 🎨”
+    </blockquote>
+
+    <!-- Контакт -->
+    <div class="contact">
+      <h3>Зв'язатися зі мною можна за допомогою кнопки</h3>
+      <a href="mailto:zinchenkoann000@gmail.com">Написати ✉️</a>
+    </div>
+    <script>
+  function toggleTheme() {
+    const body = document.body;
+    body.classList.toggle('dark-mode');
+    body.classList.toggle('light-mode');
+  }
+</script>
+    <footer style="text-align: center; padding: 20px; margin-top: 40px; color: #888;">
+  © 2025 Аня Зінченко — веброзробниця 💻
+</footer>
+
+  </div>
+</body>
+</html>
