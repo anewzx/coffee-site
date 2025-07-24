@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Запашна кава</title>
+  <style>
+    body {
+      font-family: 'Verdana', sans-serif;
+      margin: 0;
+       font-family: 'Playfair Display', serif;
+      background-color: #fcf9f2;
+      color: #3e2c1c;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+      background-color: rgb(245, 228, 181);
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      margin-top: 30px;
+
+      /* Анімація появи */
+      animation: fadeIn 1s ease-in-out;
+    }
+    header {
+      background-color: #ca9662;
+      padding: 40px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 20px;
+    }
+    .content {
+      padding: 40px;
+      text-align: center;
+    }
+    .content img {
+      max-width: 50%;
+      border-radius: 10px;
+    }
+      .profile-img {
+      display: block;
+      float: left;
+    margin: 0 auto;
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      
+    }
+    
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 18px;
+      background-color: #6e4b2f;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+      .social {
+      text-align: right;
+      margin-top: 10px;
+    }
+
+    .social a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #583723;
+      font-weight: bold;
+      font-size: 24px; /* Збільшено */
+      transition: all 0.3s ease-in-out;
+    }
+
+    .social a:hover {
+      color: #301f19; /* Темніший при наведенні */
+    }
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 14px;
+    }
+      img {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Тінь зі зміщенням 5px, 5px, розмиття 10px, чорний колір */
+  border-radius: 10px; /* Заокруглення кутів 10px */
+}
+     @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @media (max-width: 600px) {
+  .content img {
+    max-width: 90%;
+  }
+  .container {
+    padding: 10px;
+  }
+  header h1 {
+    font-size: 32px;
+  }
+}
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="dish-1072097.jpg" alt="" class="profile-img" />
+    <div class="social">
+      <a href="coffe1.html" target="_blank">Кавові зерна</a>
+       <a href="menu.html" target="_blank">Menu</a>
+    </div>
+    
+  </header>
+
+   <div class="container">
+    <h1>Запашка кава в кожний чашці</h1>
+    <p style="font-size: 20px ; color: #3e2c1cc5;">Ароматна, справжня, твоя</p>
+    <p style="font-size: 22px;">
+  Також маємо цікаві варіанти інших напоїв. Тому, якщо кава тобі не до вподоби, спробуй наші інші напої.
+  І не можемо мовчати про наші десерти! Якщо зацікавило — переходь у меню.
+</p>
+    <a class="btn" href="menu.html">Меню</a>
+    <h2>Чому саме наша кава?</h2>
+    <p style="font-size: 20px;" >Ми готуємо каву з любов'ю до кожного клієнта. Якість — наш пріоритет! Тому чакеємо тебе у себе</p>
+    <img src="osin_1.jpg"  alt="Чашка кави" style="display: block; margin: 0 auto;">
+    <br>
+    <a class="btn" href="My.html">Моя візитка</a>
+  </div>
+
+  <footer>
+    © 2025 Кава 
+  </footer>
+
+</body>
+</html>
